@@ -74,6 +74,12 @@ export declare interface NotificationPreviewProps {
      * Use by platforms: android, ios
      */
     badge?: string;
+    /**
+     * The domain.
+     *
+     * Use by platforms: web:windows, web:android, web:macos
+     */
+    domain?: string;
 }
 
 /** @public
