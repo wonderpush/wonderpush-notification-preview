@@ -1,0 +1,49 @@
+{
+  "name": "wonderpush-notification-preview",
+  "version": "1.0.0",
+  "description": "Embeddable notification preview components",
+  "author": {
+    "name": "WonderPush",
+    "email": "dev@wonderpush.com"
+  },
+  "contributors": [
+    {
+      "name": "Emmanuel Sarpedon",
+      "url": "https://github.com/emmanuel-sarpedon"
+    }
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/wonderpush/wonderpush-notification-preview#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderpush/wonderpush-notification-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wonderpush/wonderpush-notification-preview/issues"
+  },
+  "keywords": [
+    "wonderpush",
+    "push",
+    "mobile push",
+    "mobile push notifications",
+    "web push",
+    "web push notifications",
+    "notification",
+    "notifications",
+    "push notification",
+    "push notifications",
+    "preview",
+    "notification preview",
+    "push preview",
+    "embeddable"
+  ],
+  "main": "dist/index.min.js",
+  "module": "dist/index.min.js",
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": "^16.3.0 || ^17.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.3.0 || ^17.0.0"
+  }
+}

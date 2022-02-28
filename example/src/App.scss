@@ -1,0 +1,68 @@
+.App {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+
+    @media (max-width: 1048px) {
+        flex-direction: column;
+    }
+
+    .form-notification-params {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (max-width: 1048px) {
+            margin-bottom: 50px;
+            width: 100vw;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            font-size: 13px;
+            color: rgb(50, 50, 50);
+            align-items: stretch;
+            margin-top: 10px;
+            width: 500px;
+
+            @media (max-width: 1048px) {
+                width: 100%;
+            }
+
+            input, textarea {
+                font-family: inherit;
+                margin-top: 5px;
+                padding: 5px;
+                border: lightgrey 1px solid;
+                border-radius: 2px;
+                color: rgb(50, 50, 50);
+            }
+
+            textarea {
+                resize: none;
+                height: 80px;
+            }
+
+            select {
+                margin-top: 5px;
+                padding: 5px;
+                border-color: #1E8FEB;
+                color: #1E8FEB;
+                &:hover {
+                }
+            }
+        }
+    }
+
+    .preview {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+}

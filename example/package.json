@@ -1,0 +1,38 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^16.11.22",
+    "@types/react": "~16.3.0",
+    "@types/react-dom": "~16.0.0",
+    "react": "16.3.0",
+    "react-dom": "16.3.0",
+    "react-scripts": "5.0.0",
+    "typescript": "^4.5.5",
+    "wonderpush-notification-preview": "file:.."
+  },
+  "scripts": {
+    "start": "npx react-scripts start",
+    "build": "npx react-scripts build",
+    "test": "npx react-scripts test",
+    "eject": "npx react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
