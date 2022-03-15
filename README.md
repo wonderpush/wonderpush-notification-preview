@@ -36,7 +36,7 @@ And place the component in your page:
 
     ```html
     <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js" crossorigin></script>
     ```
 
     See [React's documentation _Add React to a Website_](https://reactjs.org/docs/add-react-to-a-website.html)
@@ -45,7 +45,7 @@ And place the component in your page:
 3. Add the library script to your page `<head>`:
 
     ```html
-    <script src="node_modules/wonderpush-notification-preview/index.min.js"></script>
+    <script src="node_modules/wonderpush-notification-preview/dist/index.min.js"></script>
     ```
 
     Note: Adjust the script's `src` attribute to point at the location where you installed this library.
