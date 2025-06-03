@@ -82,6 +82,17 @@ export declare interface NotificationPreviewProps {
      * Use by platforms: web:windows, web:android, web:macos
      */
     domain?: string;
+    /**
+     * Whether to hide the phone background in the preview.
+     *
+     * Use by platforms: All
+     */
+    hidePhone?: boolean;
+    /**
+     * Whether to force the notification preview to be expanded or collapsed.
+     * When specified, all interactivity will be disabled.
+     */
+    forceState?: 'expanded' | 'collapsed';
 }
 
 /** @public
