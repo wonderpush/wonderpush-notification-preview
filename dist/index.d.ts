@@ -1,10 +1,12 @@
+import { JSX as JSX_2 } from 'react/jsx-runtime';
+
 /** @public
  * The notification preview component.
  *
  * Give it a platform, some meta-information like the application name or icon and a notification content
  * to display a preview matching what you should get on a physical device.
  */
-export declare const NotificationPreview: (props: NotificationPreviewProps) => JSX.Element;
+export declare const NotificationPreview: (props: NotificationPreviewProps) => JSX_2.Element;
 
 /** @public
  * Properties used by the NotificationPreview component.
